@@ -11,7 +11,7 @@ const TermsOfService = () => {
       <Header />
       <div className="container mx-auto px-6 py-16 max-w-4xl">
         <button
-          onClick={() => navigate("/home")}
+          onClick={() => navigate("/")}
           className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors mb-8"
         >
           <ArrowLeft size={20} />

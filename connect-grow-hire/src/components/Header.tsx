@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
 import { useFirebaseAuth } from "../contexts/FirebaseAuthContext";
-import OfferloopLogo from "@/assets/Offerloop-almostfinishedlogo.png";
 
 const Header = () => {
   const navigate = useNavigate();
@@ -16,12 +15,11 @@ const Header = () => {
     <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 relative z-10">
       <div className="container flex h-16 items-center justify-between px-6 relative">
         <div className="flex items-center h-full overflow-hidden">
-          <img
-            src={OfferloopLogo}
-            alt="Offerloop.ai"
-            className="h-10 w-auto object-contain cursor-pointer"
-            onClick={() => navigate("/home")}
-          />
+          <div className="flex items-center gap-2 cursor-pointer" onClick={() => navigate('/')}>
+            <span className="text-xl font-bold text-white dark:text-white text-blue-900 dark:text-white">
+              offer<span className="gradient-text-teal">loop</span>
+            </span>
+          </div>
         </div>
         
         <div className="flex items-center gap-4">

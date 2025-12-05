@@ -12,7 +12,7 @@ const PrivacyPolicy = () => {
       <main className="container mx-auto px-6 py-12">
         <div className="max-w-4xl mx-auto">
           <div className="mb-8">
-            <Link to="/home">
+            <Link to="/">
               <Button variant="ghost" className="mb-6">
                 <ArrowLeft className="mr-2 h-4 w-4" />
                 Back to Home

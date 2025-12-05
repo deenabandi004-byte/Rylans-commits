@@ -14,6 +14,9 @@ export default defineConfig(({ mode }) => {
     resolve: {
       alias: { '@': path.resolve(__dirname, './src') },
     },
+    optimizeDeps: {
+      include: ['three', '@react-three/fiber'],
+    },
     build: { outDir: 'dist', assetsDir: 'assets' }, // defaults, but explicit is fine
     server: {
       host: true,

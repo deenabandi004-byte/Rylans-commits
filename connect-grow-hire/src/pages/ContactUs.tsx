@@ -83,12 +83,12 @@ const ContactUs = () => {
                 <CardContent>
                   <div className="flex gap-4">
                     <Button variant="outline" size="icon" asChild>
-                      <a href="#" target="_blank" rel="noopener noreferrer">
+                      <a href="https://linkedin.com/company/offerloop-ai" target="_blank" rel="noopener noreferrer">
                         <Linkedin className="h-4 w-4" />
                       </a>
                     </Button>
                     <Button variant="outline" size="icon" asChild>
-                      <a href="#" target="_blank" rel="noopener noreferrer">
+                      <a href="https://instagram.com/offerloop.ai" target="_blank" rel="noopener noreferrer">
                         <Instagram className="h-4 w-4" />
                       </a>
                     </Button>
